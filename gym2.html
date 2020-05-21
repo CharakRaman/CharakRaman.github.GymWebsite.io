@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weclome to Charak's Gym</title>
+    <style>
+        body {
+            background: url(/images.jpg);
+            flex-wrap: wrap;
+
+        }
+
+        header {
+            flex-wrap: wrap;
+            padding: 0px;
+            margin: 0px;
+            font: black;
+            font-size: 25px;
+        }
+
+        .left div {
+            font-size: 19px;
+            line-height: 1px;
+            /* display: inline; */
+
+            text-align: center;
+
+        }
+
+        .left {
+            position: absolute;
+
+            display: inline;
+            top: 15px;
+            line-height: 0%;
+            left: 56px;
+        }
+
+        .mid {
+            display: block;
+
+
+            width: 667px;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            display: inline;
+
+
+            top: 27px;
+            right: 44px;
+        }
+
+
+
+        .nav a {
+            text-decoration: none;
+            color: black;
+            padding: 17px 21px;
+            font-family: cursive;
+        }
+
+        .nav a:hover,
+        .nav span a#one {
+            text-decoration: underline;
+            color: rgb(250, 126, 126);
+            ;
+            border-radius: 37px;
+        }
+
+        img {
+            width: 108px;
+        }
+
+        button.btn {
+            padding: 2px 2px;
+
+            margin: 1px 25px;
+            size: 25px;
+            background-color: transparent;
+            color: khaki;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        
+
+        .btn:hover {
+            color: yellow;
+
+        }
+
+
+        .container {
+            font-family: cursive;
+            font-size: 25px;
+          
+            margin: 64px 86px;
+            padding: 93px 240px;
+            width: 53%;
+            border-radius: 2px;
+        }
+
+        .formgroup input {
+            border-radius: 10px;
+            text-align: center;
+            display: block;
+            padding: 5px;
+            margin: 2px auto;
+            border: 2px solid black;
+            width: 34%;
+            font-size: 21px;
+
+
+        }
+
+        #two {
+            font-family: cursive;
+            border-radius: 10px;
+            border-color: black;
+            margin: 25px 264px;
+            color: black;
+            width: 34%;
+
+        }
+        hr{
+            margin: 76px 1px;
+        }
+        #two:hover {
+            color: red;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gta.jpg" alt="">
+            <div>Charak Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <span class="active1"><a id="one" href="#">Home</a></span>
+                <span class="active2"><a href="#">About Us</a></span>
+                <span class="active3"><a href="#">Membership</a></span>
+                <span class="active4"><a href="#">Records</a></span>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call US</button>
+            <button class="btn">Email US</button>
+        </div>
+
+
+    </header>
+    <hr >
+    <div class="container">
+        <h1>Join the best Gym Of Delhi now</h1>
+        <form action="noaction.php"></form>
+        <div class="formgroup">
+            <input type="text" name="Myname" placeholder="Enter Your Name">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="Myname" placeholder="Enter Your Age">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="Myname" placeholder="Enter Your Gender">
+        </div>
+        <div class="formgroup">
+            <input type="text" name="Myname" placeholder="Enter Your Phone Number">
+        </div>
+        <button class="btn" id="two">Submit NOw</button>
+    </div>
+
+
+</body>
+
+</html>
